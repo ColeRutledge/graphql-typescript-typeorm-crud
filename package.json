@@ -19,7 +19,8 @@
     "typeorm": "0.2.20"
   },
   "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts",
+    "start": "nodemon dist/index.js",
+    "watch": "tsc -w",
     "build": "tsc"
   }
 }
